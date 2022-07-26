@@ -41,6 +41,7 @@ Also, make note that i've choosen Atmega328 uController, that can be replaced fo
 Concerning the voltage regulating parts, i've choose a regulator that can step up voltage from an ordinary 18650 Li-Ion battery with some quality. We have many decoupling capacitors here because of current peaks that regulator may have an slow response and this may result in loss of packet transfer or even hardware bug. 
 
 If is the case of integrating ESP8266 board (or any other radio, such as LoRa ones) into main uController's board, few R.F. cares should be taken into account, such as:
+
 	1 - Never put an transmitter (of whatever frequency) near to main uControlers XTAL, or injection locking may occur, degrading overall system performance or stopping system working;
 	2 - Striplines for antennas are the best design form: it's compact and we can dimension it in accordance with frequency wavelenght, for this, higher Transmitting and Receiving frequency may be optimal, since lower freququencies will have big transmission lines;
 	3 - Decoupling inductors and capacitors for power amplifiers are good idea for removing transmission noise from the overall system;
