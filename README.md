@@ -9,6 +9,7 @@ Project directory:
 | eagle_schematics_and_pcb | Base project that can be used for Tx / Rx hardware |
 | python_scripts | Base scripts used to send, fragment, reconstruct and append data |
 | real_implementations_data | Source data that was transfered through bridges or Wireless and its results at its real uses (phase analysis in time domain) |
+| initial_planning | manual drawings of how things can be |
 
 Observations: 
 
