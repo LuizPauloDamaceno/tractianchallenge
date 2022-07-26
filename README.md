@@ -61,3 +61,13 @@ As you can see until here, the project was designed to use an uController as bri
 Faster radios or even better uControllers certainly will improve system's overall speed (such as few LoRa modems (like SX12xx series) with STM32 uController. Maybe is also interesting future tests with BLE (Bluetooth Low Energy) devices. 
 
 The main reason of componnents / modules choice is based on what I had to test and proof the work of basic system in my own lab. As you can see in the .ino or .py programs, the codes are completely portable to any wanted platform. Such as STM32, or even an mBed board, for example. 
+
+Is also possible to observe that even with ESP solution, if speed isn't a problem, interactive plots may be done with a simple code. If you also want to view few videos of the real implementations working, check here: https://tinyurl.com/mwtjrbfp
+
+References:
+
+	https://room-15.github.io/blog/2015/03/26/esp8266-at-command-reference/
+	https://docs.espressif.com/projects/esp-at/en/latest/esp32/AT_Command_Set/Wi-Fi_AT_Commands.html
+	https://www.electronicshub.org/esp8266-at-commands/
+	https://www.espressif.com/sites/default/files/documentation/4b-esp8266_at_command_examples_en.pdf
+	https://github.com/beegee-tokyo/SX126x-Arduino#explanation-for-txco-and-antenna-control
