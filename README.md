@@ -11,8 +11,10 @@ Project directory:
 | real_implementations_data | Source data that was transfered through bridges or Wireless and its results at its real uses (phase analysis in time domain) |
 
 Observations: 
+
 	- The data file contains about 36000 points of 13 byte string (coming from a time interval counter that puts data into this file every second with picossecond (pS) resolution).
 	- The benchmarks for base tests showed the following results:
+
 		- Bridge mode (case 1): about 15 min to transfer entire data;
 		- Wireless mode (case 2): about 2 hours to transfer entire data.
 
